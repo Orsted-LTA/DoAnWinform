@@ -256,6 +256,7 @@
             this.thôngTinCáToolStripMenuItem.Name = "thôngTinCáToolStripMenuItem";
             this.thôngTinCáToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.thôngTinCáToolStripMenuItem.Text = "Thông tin cá nhân";
+            this.thôngTinCáToolStripMenuItem.Click += new System.EventHandler(this.thôngTinCáToolStripMenuItem_Click);
             // 
             // thôngTinTàiToolStripMenuItem
             // 
@@ -271,6 +272,7 @@
             this.addminToolStripMenuItem.Name = "addminToolStripMenuItem";
             this.addminToolStripMenuItem.Size = new System.Drawing.Size(55, 22);
             this.addminToolStripMenuItem.Text = "Admin";
+            this.addminToolStripMenuItem.Click += new System.EventHandler(this.addminToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -296,6 +298,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
             this.Name = "fTableManager";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Phần mềm quản lý quán ăn";
             ((System.ComponentModel.ISupportInitialize)(this.nmFoodCount)).EndInit();
             this.panel4.ResumeLayout(false);

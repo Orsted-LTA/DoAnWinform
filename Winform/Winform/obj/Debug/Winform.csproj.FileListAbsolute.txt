@@ -9,3 +9,5 @@ C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.exe
 C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.pdb
 C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.fLogin.resources
 C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.fTableManager.resources
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.fAccountProfile.resources
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.fAdmin.resources
