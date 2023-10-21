@@ -129,10 +129,10 @@
             // 
             // txbTotalPrice
             // 
-            this.txbTotalPrice.Location = new System.Drawing.Point(185, 24);
+            this.txbTotalPrice.Location = new System.Drawing.Point(150, 24);
             this.txbTotalPrice.Name = "txbTotalPrice";
             this.txbTotalPrice.ReadOnly = true;
-            this.txbTotalPrice.Size = new System.Drawing.Size(78, 20);
+            this.txbTotalPrice.Size = new System.Drawing.Size(113, 20);
             this.txbTotalPrice.TabIndex = 8;
             this.txbTotalPrice.Text = "0";
             this.txbTotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -143,7 +143,7 @@
             this.cbSwitchtable.Location = new System.Drawing.Point(6, 37);
             this.cbSwitchtable.Margin = new System.Windows.Forms.Padding(2);
             this.cbSwitchtable.Name = "cbSwitchtable";
-            this.cbSwitchtable.Size = new System.Drawing.Size(79, 21);
+            this.cbSwitchtable.Size = new System.Drawing.Size(70, 21);
             this.cbSwitchtable.TabIndex = 7;
             // 
             // btnSwitchtable
@@ -151,26 +151,26 @@
             this.btnSwitchtable.Location = new System.Drawing.Point(4, 6);
             this.btnSwitchtable.Margin = new System.Windows.Forms.Padding(2);
             this.btnSwitchtable.Name = "btnSwitchtable";
-            this.btnSwitchtable.Size = new System.Drawing.Size(81, 27);
+            this.btnSwitchtable.Size = new System.Drawing.Size(72, 27);
             this.btnSwitchtable.TabIndex = 6;
             this.btnSwitchtable.Text = "Chuyển bàn";
             this.btnSwitchtable.UseVisualStyleBackColor = true;
             // 
             // nmDiscount
             // 
-            this.nmDiscount.Location = new System.Drawing.Point(89, 38);
+            this.nmDiscount.Location = new System.Drawing.Point(80, 37);
             this.nmDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.nmDiscount.Name = "nmDiscount";
-            this.nmDiscount.Size = new System.Drawing.Size(82, 20);
+            this.nmDiscount.Size = new System.Drawing.Size(65, 20);
             this.nmDiscount.TabIndex = 5;
             this.nmDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnDiscount
             // 
-            this.btnDiscount.Location = new System.Drawing.Point(89, 5);
+            this.btnDiscount.Location = new System.Drawing.Point(80, 6);
             this.btnDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.btnDiscount.Name = "btnDiscount";
-            this.btnDiscount.Size = new System.Drawing.Size(82, 29);
+            this.btnDiscount.Size = new System.Drawing.Size(65, 27);
             this.btnDiscount.TabIndex = 4;
             this.btnDiscount.Text = "Giảm giá";
             this.btnDiscount.UseVisualStyleBackColor = true;
