@@ -47,7 +47,7 @@
             this.panel2.Controls.Add(this.txbUserName);
             this.panel2.Controls.Add(this.lblTendangnhap);
             this.panel2.Location = new System.Drawing.Point(13, 12);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(415, 50);
             this.panel2.TabIndex = 0;
@@ -55,7 +55,7 @@
             // txbUserName
             // 
             this.txbUserName.Location = new System.Drawing.Point(176, 18);
-            this.txbUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(2);
             this.txbUserName.Name = "txbUserName";
             this.txbUserName.Size = new System.Drawing.Size(193, 20);
             this.txbUserName.TabIndex = 1;
@@ -78,15 +78,16 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(9, 9);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(443, 192);
             this.panel1.TabIndex = 1;
             // 
             // btnExit
             // 
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(334, 145);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(94, 34);
             this.btnExit.TabIndex = 3;
@@ -97,7 +98,7 @@
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(232, 145);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(98, 34);
             this.btnLogin.TabIndex = 2;
@@ -110,7 +111,7 @@
             this.panel3.Controls.Add(this.txbPassWord);
             this.panel3.Controls.Add(this.lblPasswork);
             this.panel3.Location = new System.Drawing.Point(13, 78);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(415, 49);
             this.panel3.TabIndex = 1;
@@ -118,7 +119,7 @@
             // txbPassWord
             // 
             this.txbPassWord.Location = new System.Drawing.Point(176, 16);
-            this.txbPassWord.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbPassWord.Margin = new System.Windows.Forms.Padding(2);
             this.txbPassWord.Name = "txbPassWord";
             this.txbPassWord.Size = new System.Drawing.Size(193, 20);
             this.txbPassWord.TabIndex = 1;
@@ -143,12 +144,11 @@
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(464, 214);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fLogin_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Winform.DAO;
 
 namespace Winform
 {
@@ -15,8 +16,8 @@ namespace Winform
         public fAdmin()
         {
             InitializeComponent();
+           
         }
-
 
     }
 }

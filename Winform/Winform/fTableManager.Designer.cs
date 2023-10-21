@@ -62,10 +62,11 @@
             // 
             // flpTable
             // 
+            this.flpTable.AutoScroll = true;
             this.flpTable.Location = new System.Drawing.Point(8, 26);
             this.flpTable.Margin = new System.Windows.Forms.Padding(2);
             this.flpTable.Name = "flpTable";
-            this.flpTable.Size = new System.Drawing.Size(389, 406);
+            this.flpTable.Size = new System.Drawing.Size(406, 406);
             this.flpTable.TabIndex = 10;
             // 
             // nmFoodCount
@@ -247,14 +248,14 @@
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // thôngTinCáToolStripMenuItem
             // 
             this.thôngTinCáToolStripMenuItem.Name = "thôngTinCáToolStripMenuItem";
-            this.thôngTinCáToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thôngTinCáToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.thôngTinCáToolStripMenuItem.Text = "Thông tin cá nhân";
             this.thôngTinCáToolStripMenuItem.Click += new System.EventHandler(this.thôngTinCáToolStripMenuItem_Click);
             // 
