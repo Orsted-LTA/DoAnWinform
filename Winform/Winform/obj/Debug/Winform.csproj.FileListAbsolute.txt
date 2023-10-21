@@ -1,0 +1,10 @@
+C:\DoAnWinform\Winform\Winform\bin\Debug\Winform.exe.config
+C:\DoAnWinform\Winform\Winform\bin\Debug\Winform.exe
+C:\DoAnWinform\Winform\Winform\bin\Debug\Winform.pdb
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.csproj.AssemblyReference.cache
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.Form1.resources
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.Properties.Resources.resources
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.csproj.GenerateResource.cache
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.csproj.CoreCompileInputs.cache
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.exe
+C:\DoAnWinform\Winform\Winform\obj\Debug\Winform.pdb
